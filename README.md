@@ -55,4 +55,4 @@
 4. Vyberte jednu z možností:
    - Přetáhněte stažený `.zip` soubor do okna prohlížeče
    - Klikněte na "Načíst rozbalené" a vyberte složku s rozšířením
-5. Pokud chcete použít instalaci přes **.crx**, je nutné nejprve povolit [chrome://flags/#extension-mime-request-handling](chrome://flags/#extension-mime-request-handling). Poté stačí kliknout na soubor .crx a doplněk se automaticky přidá do prohlížeče.
+5. Pokud chcete použít instalaci přes **.crx**, je nutné nejprve povolit `chrome://flags/#extension-mime-request-handling`. Poté stačí kliknout na soubor .crx a doplněk se automaticky přidá do prohlížeče.
