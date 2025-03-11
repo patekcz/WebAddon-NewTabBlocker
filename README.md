@@ -64,7 +64,3 @@ Pro přispění k vývoji `NewTabBlocker`:
 git clone https://github.com/patekcz/NewTabBlocker.git
 cd NewTabBlocker
 ```
-
-## 📂 Struktura projektu
-
-```
