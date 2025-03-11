@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <b>Doplněk pro chromium, který blokuje otevírání oken v novém okně</b>
+  <b>Doplněk pro chromium, který chrání před nevyžádanými vyskakovacími okny a kartami</b>
 </p>
 
 <p align="center">
@@ -19,14 +19,27 @@
 
 ## 🌟 O projektu
 
-`NewTabBlocker` je rozšíření pro prohlížeče založené na `Chromiu`, které zabraňuje webovým stránkám otevírat nová okna nebo záložky bez vašeho souhlasu. Toto rozšíření zvyšuje vaše soukromí a kontrolu nad procházením webu.
+`NewTabBlocker` je rozšíření pro prohlížeče založené na `Chromiu`, které vám dává plnou kontrolu nad tím, jak webové stránky mohou otevírat nová okna a karty. Chrání vás před nevyžádanými vyskakovacími okny a automaticky otevíranými kartami, čímž zvyšuje vaše soukromí a komfort při prohlížení webu.
 
 ## 🚀 Funkce
 
-- 🛡️ Blokuje automatické otevírání nových oken a záložek
-- 🔒 Zvyšuje bezpečnost procházení webu
-- 🔧 Jednoduchá instalace a použití
-- 🎨 Minimalistický a intuitivní design
+- 🛡️ Blokování vyskakovacích oken
+  - Zabraňuje webům otevírat nová okna prohlížeče bez vašeho souhlasu
+  - Chrání před reklamními pop-up okny
+
+- 🔒 Blokování nových karet
+  - Kontroluje otevírání nových karet
+  - Zabraňuje webům automaticky otevírat další karty
+
+- ⚙️ Flexibilní nastavení
+  - Možnost samostatně zapnout/vypnout blokování oken
+  - Možnost samostatně zapnout/vypnout blokování karet
+  - Okamžité přepínání funkcí přímo z popup menu
+
+- 🎨 Uživatelsky přívětivé rozhraní
+  - Přehledné české rozhraní
+  - Jasná indikace aktivních funkcí
+  - Minimalistický design
 
 ## 💻 Kompatibilita
 
@@ -36,14 +49,16 @@
 
 ## 📥 Instalace
 
-1. Stáhněte si nejnovější verzi rozšíření z [Releases](https://github.com/patekcz/NewTabBlocker/releases).
-2. Otevřete správce rozšíření ve vašem prohlížeči (obvykle `chrome://extensions/`).
-3. Povolte `režim pro vývojáře`.
-4. Přetáhněte stažený soubor `.zip` do okna prohlížeče nebo klikněte na "Načíst rozbalené" a vyberte složku s rozšířením.
+1. Stáhněte si nejnovější verzi rozšíření z [Releases](https://github.com/patekcz/NewTabBlocker/releases)
+2. Otevřete správce rozšíření ve vašem prohlížeči (`chrome://extensions/`)
+3. Zapněte `Režim pro vývojáře` (pravý horní roh)
+4. Vyberte jednu z možností:
+   - Přetáhněte stažený `.zip` soubor do okna prohlížeče
+   - Klikněte na "Načíst rozbalené" a vyberte složku s rozšířením
 
 ## 🛠️ Vývoj
 
-Pokud chcete přispět k vývoji `NewTabBlocker`, můžete projekt naklonovat a upravit:
+Pro přispění k vývoji `NewTabBlocker`:
 
 ```bash
 git clone https://github.com/patekcz/NewTabBlocker.git
@@ -53,29 +68,3 @@ cd NewTabBlocker
 ## 📂 Struktura projektu
 
 ```
-.
-└── NewTabBlocker
-    ├── README.md
-    └── src
-        ├── icons
-        │   ├── default_icon.png
-        │   ├── icon128-modified.png
-        │   ├── icon128.png
-        │   ├── icon16.png
-        │   ├── icon32.png
-        │   └── icon48.png
-        ├── manifest.json
-        ├── popup.html
-        ├── popup.js
-        └── script.js
-```
-
-## 🤝 Přispívání
-
-Příspěvky jsou vítány! Pokud máte nápad na vylepšení nebo jste našli chybu, neváhejte otevřít issue nebo poslat pull request.
-
----
-
-<p align="center">
-  Děkuji všem, kteří používají a podporují tento projekt! ❤️
-</p>
