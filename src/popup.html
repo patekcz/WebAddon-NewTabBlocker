@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,42 @@
             background-color: black;
             color: white;
             font-family: Arial, sans-serif;
+            padding: 10px;
+            min-width: 250px;
         }
         button {
-            padding: 5px 5px;
+            padding: 8px 12px;
             background-color: #333;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 5px 0;
+            width: 100%;
+            display: block;
         }
         button:hover {
             background-color: #555;
+        }
+        .enabled {
+            background-color: #4CAF50;
+        }
+        .enabled:hover {
+            background-color: #45a049;
+        }
+        .description {
+            font-size: 12px;
+            color: #888;
+            margin: 2px 0 8px 0;
         }
     </style>
     <script src="popup.js"></script>
 </head>
 <body>
-    <button id="toggleScript">Toggle Script</button>
+    <button id="toggleScript">Blokovat vyskakovací okna</button>
+    <div class="description">Zabrání webům otevírat nová okna prohlížeče</div>
+    
+    <button id="toggleNewTabs">Blokovat nové karty</button>
+    <div class="description">Zabrání webům otevírat nové karty v prohlížeči</div>
 </body>
 </html>
